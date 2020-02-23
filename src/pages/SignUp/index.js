@@ -26,7 +26,7 @@ export default function SignUp() {
   }
   return (
     <>
-      <img src={logo} alt="gobarber" />
+      <img src={logo} alt="GoBarber" />
 
       <Form schema={schema} onSubmit={handleSubmit}>
         <Input name="name" placeholder="Nome completo" />
