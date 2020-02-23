@@ -27,7 +27,7 @@ export default function SignIn() {
       <img src={logo} alt="gobarber" />
 
       <Form schema={schema} onSubmit={handleSubmit}>
-        <Input name="emaill" type="email" placeholder="Seu e-mail" />
+        <Input name="email" type="email" placeholder="Seu e-mail" />
         <Input
           name="password"
           type="password"

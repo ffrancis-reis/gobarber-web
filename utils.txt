@@ -1,5 +1,6 @@
 yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 yarn eslint --init
+yarn eslint --fix src --ext .js
 
 yarn add customize-cra react-app-rewired -D
 yarn add eslint-import-resolver-babel-plugin-root-import -D
